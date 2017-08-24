@@ -1,0 +1,8 @@
+source https://api.nuget.org/v3/index.json
+
+nuget System.ValueTuple 4.3.1 restriction: >= net461
+nuget FsXaml.Wpf
+
+nuget Gjallarhorn 
+nuget Gjallarhorn.Bindable
+nuget Gjallarhorn.Bindable.Wpf

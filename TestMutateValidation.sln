@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.10
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".paket", ".paket", "{388A5D52-2445-406A-B639-9F8D8937C4DE}"
+	ProjectSection(SolutionItems) = preProject
+		paket.dependencies = paket.dependencies
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestMutateValidation", "TestMutateValidation\TestMutateValidation.fsproj", "{E13418B7-4690-4F37-A06D-C5DE9037D1CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E13418B7-4690-4F37-A06D-C5DE9037D1CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E13418B7-4690-4F37-A06D-C5DE9037D1CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E13418B7-4690-4F37-A06D-C5DE9037D1CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E13418B7-4690-4F37-A06D-C5DE9037D1CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AB5B9723-75B8-474D-90C0-50E42618699C}
+	EndGlobalSection
+EndGlobal

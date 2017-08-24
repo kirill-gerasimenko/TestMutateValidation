@@ -1,0 +1,10 @@
+NUGET
+  remote: https://api.nuget.org/v3/index.json
+    FsXaml.Wpf (3.1.6)
+    Gjallarhorn (0.0.10-beta)
+    Gjallarhorn.Bindable (0.0.10-beta)
+      Gjallarhorn (>= 0.0.10-beta)
+    Gjallarhorn.Bindable.Wpf (0.0.10-beta)
+      Gjallarhorn (>= 0.0.10-beta)
+      Gjallarhorn.Bindable (>= 0.0.10-beta)
+    System.ValueTuple (4.3.1) - restriction: >= net461

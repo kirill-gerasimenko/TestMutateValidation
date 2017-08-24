@@ -1,0 +1,22 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Test"
+        Height="100"
+        Width="250"
+        WindowStartupLocation="CenterScreen"
+        >
+    <Grid Margin="5,5,5,5" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="100" />
+            <ColumnDefinition Width="100" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <TextBox Grid.Column="0" Grid.Row="0" Margin="3,3,3,3" IsReadOnly="False" Text="{Binding Path=Text1, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
+        <TextBox Grid.Column="1" Grid.Row="0" Margin="3,3,3,3" IsReadOnly="False" Text="{Binding Path=Text2, Mode=TwoWay, UpdateSourceTrigger=LostFocus}"/>
+    </Grid>
+
+
+</Window>
